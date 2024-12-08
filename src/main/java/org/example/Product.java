@@ -1,10 +1,12 @@
 package org.example;
 
-@lombok.NoArgsConstructor
-@lombok.AllArgsConstructor
-@lombok.Setter
-@lombok.Getter
-@lombok.ToString
+import lombok.*;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Setter
+@Getter
+@ToString
 public class Product {
 
     private Long id;
